@@ -1,54 +1,54 @@
 ---
-layout: downloads
-title: Downloads
-permalink: /downloads/
+Diseño: descargas
+Título: Descargas
+permalink: /descargas/
 ---
-### Which version to download?
+### Cuál versión descargar?
 
-If you don’t know what version to install and you’re getting started with Ruby,
-we recommend you use Ruby <b>2.4.X</b> installers. These provide a stable
-language and a extensive list of packages (gems) that are compatible and
-updated.
+Si no sabes qué version instalar y estás empezando con Ruby,
+te recomendamos usar los instaladores de Ruby <b>2.4.X</b>. Esos te brindan un
+lenguaje estable y con una extensa lista de paquetes (gemas) que son compatibles
+y están actualizadas.
 
-However, not all packages (gems) are maintained. Some older packages may not
-be compatible with newer versions of Ruby and RubyInstaller.
+Como sea, no todos los paquetes (gemas) son mantenidos. Algunos paquetes viejos
+tal ves no sean compatibles con Ruby y los instaladores de Ruby.
 
-To use newer versions you will require some knowledge about compilers and
-solving dependency issues, which might be too complicated if you just want to
-play with the language.
+Para usar versiones recientes necesitas tener un poco de conocimiento acerca de los compiladores
+para resolver algunos problemas, los cuáles podrían ser muy complicados en caso
+de que sólo desees experimentar con el lenguaje.
 
-### Which Development Kit?
+### Cuál kit de desarrollo?
 
-Starting with Ruby 2.4.0 we use the [MSYS2 toolkit](http://www.msys2.org) as our development kit.
-It is required to build native C/C++ extensions for Ruby and is necessary for [Ruby on Rails](http://rubyonrails.org/).
-Moreover it allows the download and usage of [hundreds of Open Source libraries](https://github.com/Alexpux/MINGW-packages) which Ruby gems can depend on.
+Comenzando con Ruby 2.4.0 nosotros usamos [MSYS2 toolkit](http://www.msys2.org) como nuestro kit de desarrollo.
+Es requerido para crear extensiones C/C++ nativas y también para [Ruby on Rails](http://rubyonrails.org/).
+Además, esto te permite descargar y usar [cientos de librerias de código abierto](https://github.com/Alexpux/MINGW-packages) las cuáles sirven para paquetes que dependen de ellas.
 
-Down this page, several and <em>other</em> versions of Development Kits (DevKit) are listed.
-Please download the right one for your version of Ruby:
+Abajo de esta página, hay muchísimos Kits de Desarrollo enlistados.
+Por favor descarga los correctos dependiendo de tu versión de Ruby:
 
-* Ruby 2.4.0 and newer: The MSYS2 DevKit is downloaded as the last step of the installation.
-  It can be installed later per `ridk install` command.
-* Ruby 2.0.0 to 2.3.x (32bits): *mingw64-32-4.7.2*
-* Ruby 2.0.0 to 2.3.x (64bits): *mingw64-64-4.7.2*
+* Ruby 2.4.0 y nuevos: El kit MSYS2 es descargado en el último paso de la instalación.
+  Puede ser instalado usando el comando `ridk install`.
+* Ruby 2.0.0 a 2.3.x (32bits): *mingw64-32-4.7.2*
+* Ruby 2.0.0 a 2.3.x (64bits): *mingw64-64-4.7.2*
 
-### Speed and Compatibility
+### Velocidad y compatibilidad
 
-RubyInstaller is compiled with MinGW-w64 which offers improved speed and better RubyGem compatibility.
+Los instaladores de Ruby son compilados con MinGW-w64 lo cúal ofrece mejor velocidad y rendimiento con la compatibilidad de gemas.
 
-### Convenience
+### Conveniencia
 
-No additional software is needed if you want to use the executable versions of the RubyInstaller.
-If you would like to use the 7-Zip archived versions or the Ruby documentation, you will need to download 7-Zip from the [7-Zip website](http://www.7-zip.org/).
+No se requiere ningún software adicional para instalar Ruby con los instaladores de Ruby.
+Si te gustaría usar la versión comprimida en 7-Zip de la documentación de Ruby, necesitas descargar 7-Zip [7-Zip website](http://www.7-zip.org/).
 
-### Documentation
+### Documentación
 
-The Ruby core and standard library documentation is part of the installation.
-We also recommend the [online documentation](https://ruby-doc.org/) or HTML version downloadable [from ruby-doc.org](https://ruby-doc.org/downloads/).
+El núcleo de Ruby y documentación estándar de las librerías vienen incluidos con el Instalador.
+Tambíen recomendamos la [Documentación en línea] (https//ruby-doc.org/) o las versiones descargables en HTML [de ruby-doc.org](https://ruby-doc.org/downloads/).
 
-As an added convenience for Windows users, we’ve made available the Ruby Core and Standard Library documentation in Compiled HTML Help (CHM) format.
-It can be downloaded separately for older Ruby versions.
+Como conveniencia adicional para los usuarios de windows, ya está disponible el nucleo de Ruby y la documentación estándar de las librerías Formato de ayuda en HTML (FHM).
+Pueden ser descargados por separados para antiguas versiones de Ruby.
 
-### Support
+### Soporte
 
-Enjoy, happy Ruby coding, and let us know what you think or if you have any issues at our helpful and friendly
-[RubyInstaller Google Group](http://groups.google.com/group/rubyinstaller).
+Disfrute, programa alegremente Ruby, y déjanos saber si tienes algunos problemas con Ruby en nuestro querido
+[Grupo de Google de RubyInstaller](http://groups.google.com/group/rubyinstaller).
